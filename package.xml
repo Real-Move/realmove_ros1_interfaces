@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package format="2">
+
+    <name>realmove_ros1_interfaces</name>
+    <version>0.0.1</version>
+    <description>This ROS package contains all interfaces (messages, services, actions, etc.) related to Real-Move project</description>
+
+    <maintainer email="luca.fortini@iit.it">Luca Fortini</maintainer>
+    <maintainer email="mattia.leonori@iit.it">Mattia Leonori</maintainer>
+
+    <license>MIT</license>
+
+    <author email="luca.fortini@iit.it">Luca Fortini</author>
+    <author email="mattia.leonori@iit.it">Mattia Leonori</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>message_generation</build_depend>
+
+    <build_depend>std_msgs</build_depend>
+    <build_depend>sensor_msgs</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+    <build_depend>actionlib</build_depend>
+    <build_depend>actionlib_msgs</build_depend>
+    <build_depend>dynamic_reconfigure</build_depend>
+
+    <exec_depend>message_runtime</exec_depend>
+    <exec_depend>message_generation</exec_depend>
+    <exec_depend>actionlib_msgs</exec_depend>
+    <exec_depend>actionlib</exec_depend>
+    <exec_depend>dynamic_reconfigure</exec_depend>
+    
+    <export>
+    </export>
+
+</package>
